@@ -11,7 +11,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.model_selection import train_test_split
 
-dataFrame = pandas.read_csv("datasets/advertising.csv")
+dataFrame = pandas.read_csv("Datasets/advertising.csv")
 dataFrame.head()
 dataFrame.shape
 
